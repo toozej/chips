@@ -1,0 +1,9 @@
+[youtube]
+# found on MacOS under ~/Library/Caches/spotify_to_ytmusic/settings.ini after running `spotify_to_ytmusic setup`
+headers = {"scope": "https://www.googleapis.com/auth/youtube", "token_type": "Bearer", "access_token": "REDACTED", "refresh_token": "REDACTED", "expires_at": 12345678, "expires_in": 123456}
+user_id =
+
+[spotify]
+client_id = FROM_SPOTIFY_API_DEVELOPER_WEBSITE
+client_secret = FROM_SPOTIFY_API_DEVELOPER_WEBSITE
+use_oauth = no
