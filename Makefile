@@ -15,7 +15,7 @@ build: ## Build chips Docker image
 	sudo docker build -f Dockerfile -t toozej/chips .
 
 run: ## Run chips Docker image
-	sudo docker run --rm --env-file /home/james/cron/chips/chips.env -v /home/james/cron/chips/settings.ini:/app/settings.ini toozej/chips:latest
+	sudo docker run --rm --env-file $(CURDIR)/chips.env -v $(CURDIR)/settings.ini:/app/settings.ini toozej/chips:latest
 
 pre-commit: pre-commit-install pre-commit-run ## Install and run pre-commit hooks
 
