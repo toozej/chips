@@ -2,7 +2,7 @@ FROM python:3.12-slim
 
 RUN pip install --upgrade pip && \
     apt-get update -qq && \
-    apt-get install -y make build-essential
+    apt-get install -y make build-essential curl
 
 RUN useradd -ms /bin/bash appuser
 USER appuser
