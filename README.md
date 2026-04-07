@@ -1,5 +1,7 @@
 # Spotify to YouTube Music "CHIPS" Playlist Cloner
 
+# ARCHIVED - spotify_to_ytmusic library no longer working
+
 Clones the excellent ["CHIPS" Spotify playlist](https://open.spotify.com/playlist/1A81DvosyP0liu2iodN2Rv?si=39783b0796654a12) by [Taylor Pendleton](https://www.taylorpendletonphoto.com/) a.k.a. ["radiodarling"](https://open.spotify.com/user/eythq7kkhoydl18v0gram75jd) to YouTube Music for those who don't have Spotify and/or are invested into YouTube Music instead. This project is designed to be ran on a weekly schedule to grab the latest updates from the official "CHIPS" playlist.
 
 ## Pre-reqs
